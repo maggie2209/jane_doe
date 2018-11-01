@@ -5,6 +5,9 @@ header {
   text-align: center;
   background-color: white;
   color: red;
+  /*font-family: 'Creepster';*/
+}
+#title {
   font-family: 'Creepster';
 }
 a {
