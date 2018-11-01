@@ -9,6 +9,7 @@ header {
 }
 #title {
   font-family: 'Creepster';
+  display: inline;
 }
 a {
   color: red;
@@ -24,8 +25,8 @@ li {
   padding: 0px 40px 0px 40px;
   font-size: 30px;
 }
-.flex {
+/*.flex {
   display: inline;
   justify-content: space-between;
   align-items: baseline;
-}
+}*/
