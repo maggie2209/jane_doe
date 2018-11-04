@@ -5,32 +5,105 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<<<<<<< HEAD
   <header class='flex'>
       <h1 id='title'>True Crime</h1>
+=======
+  <header>
+      <h1 id='title'><a href='index.html'>True Crime</h1>
+>>>>>>> ea46988e4ac663f7eddf179eacfdc793672172a4
       <ul>
-        <li><a href='#'>About</a><li>
+        <li><a href='about.html'>About</a><li>
         <li><a href='#'>Cases</a><li>
         <li><a href='#'>Podcast</a><li>
         <li><a href='#'>Contact</a><li>
-        <li><a href='#'>Test2</a><li>
       </ul>
+  </header>
+
   <div id='page_content'>
+
     <h2>Cases</h2>
+
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="images/eliza-lam.png" style="width:100%">
+      <div class="text">What Happened to Eliza Lam?</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/grimes-sisters.jpg" style="width:100%">
+      <div class="text">The Unsolved Murders of the Grimes Sisters</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/dyatlov-pass.jpg" style="width:100%">
+      <div class="text">The Dyatlov Pass Incident</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    </br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+  </script>
+
+  <div>
     <h2>Podcasts we are loving</h2>
-    <h3>The Teacher’s Pet</h3>
+    <img src="images/the-teachers-pet.jpg" alt="The Teacher's Pet">
+    <h3>The Teacher's Pet</h3>
     <p>Lyn and Chris Dawson appear to have the perfect marriage. He's a star footballer and popular high school teacher. She's a devoted wife and mother. They share a beautiful home above Sydney's northern beaches. But when Lyn goes missing, dark secrets are buried. This is no fairytale, but a sordid story of strangely close twin brothers, teenage student lovers, and probable murder. The Australian's Hedley Thomas digs deep into a cold case which has been unsolved for 36 years, uncovering startling new evidence.</p>
+  </br>
 
+    <img src="images/unravel.jpg" alt="Unravel True Crime">
     <h3>Unravel True Crime</h3>
-    <p>Unravel is a podcast where, each season, some of Australia's best journalists investigate unsolved crimes. Our Season one story is  - t’s 1988. Just outside of Tamworth in country New South Wales, a freight train hits someone lying on the tracks. The boy on the tracks is Mark Haines, a 17 year-old Gomeroi teenager. Despite the strange evidence found at the scene of his death, the family feel like they're being ignored by police. An inquiry finds no answers and the mystery is left to fester, causing division and suspicion in the town. Season 2 is Barrenjoey Road,. On a regular Saturday night in June 1978, 18-year-old Trudie leaves a party at Newport Surf Club just after midnight. Thumbing a ride on Barrenjoey Road, she is picked up... and never seen again. But Trudie's disappearance is just the start of this mystery. In the weeks and months after she goes missing, other women come forward to tell the police terrifying stories of abduction and rape.
+    <p>Unravel is a podcast where, each season, some of Australia's best journalists investigate unsolved crimes. The first season goes back to 1988. Just outside of Tamworth in country New South Wales, a freight train hits someone lying on the tracks. The boy on the tracks is Mark Haines, a 17 year-old Gomeroi teenager. Despite the strange evidence found at the scene of his death, the family feel like they're being ignored by police. An inquiry finds no answers and the mystery is left to fester, causing division and suspicion in the town. Season 2 is Barrenjoey Road,. On a regular Saturday night in June 1978, 18-year-old Trudie leaves a party at Newport Surf Club just after midnight. Thumbing a ride on Barrenjoey Road, she is picked up... and never seen again. But Trudie's disappearance is just the start of this mystery. In the weeks and months after she goes missing, other women come forward to tell the police terrifying stories of abduction and rape.
+  </br>
 
+    <img src="images/serial.jpg" alt="Serial">
     <h3>Serial</h3>
-    <p>A high-school senior named Hae Min Lee disappeared one day after school in 1999, in Baltimore County, Maryland. A month later, her body was found in a city park. She'd been strangled. Her 17-year-old ex-boyfriend, Adnan Syed, was arrested for the crime, and within a year, he was sentenced to life in prison. The case against him was largely based on the story of one witness, Adnan’s friend Jay, who testified that he helped Adnan bury Hae's body. But Adnan has always maintained he had nothing to do with Hae’s death. Some people believe he’s telling the truth. Many others don’t.</p>
+    <p>A high-school senior named Hae Min Lee disappeared one day after school in 1999, in Baltimore County, Maryland. A month later, her body was found in a city park. She'd been strangled. Her 17-year-old ex-boyfriend, Adnan Syed, was arrested for the crime, and within a year, he was sentenced to life in prison. The case against him was largely based on the story of one witness, Adnan’s friend Jay, who testified that he helped Adnan bury Hae's body. But Adnan has always maintained he had nothing to do with Hae’s death. Some people believe he's telling the truth. Many others don't.</p>
+  </br>
 
+    <img src="images/up-and-vanished.jpg" alt="Up and Vanished">
     <h3>Up and Vanished</h3>
     <p>Up and Vanished is an investigative podcast that explores the unsolved disappearance of Georgia beauty queen and high school teacher, Tara Grinstead. The 11-year-old cold case is the largest case file in the history of Georgia. Follow along as host Payne Lindsey, a filmmaker turned amateur investigator, examines old case evidence and re-interviews persons of interest. What happened to Tara Grinstead?</p>
-
-    <h2>Get in Touch</h2>
-    <p>If you have any questions about any of the cases we’ve discussed or have any suggestions for cases we should look into, please leave them down below!</p>
-    </header>
   </div>
+
+  <div>
+    <h2>Get in Touch</h2>
+    <p>If you have any questions about any of the cases we've discussed or have any suggestions for cases we should look into, please leave them down below!</p>
+  </div>
+
 </body>
