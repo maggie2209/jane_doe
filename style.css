@@ -16,22 +16,26 @@ a {
 }
 h1 {
   font-size: 60px;
+  margin: 40px 0px 0px 40px;
 }
+* {margin:0;padding:0;}
 ul {
   padding: 10px;
 }
 li {
+  list-style: none;
   display: inline;
-  padding: 0px 40px 0px 40px;
+  /*padding: 0px 40px 0px 40px;*/
+  margin: 0px 20px 0px 0px;
   font-size: 30px;
 }
-<<<<<<< HEAD
-/*.flex {
+
+.flex {
   display: inline;
   justify-content: space-between;
   align-items: baseline;
-}*/
-=======
+}
+
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
