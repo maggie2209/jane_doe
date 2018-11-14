@@ -1,41 +1,12 @@
-body {
-  background-color: white;
-}
-header {
-  text-align: center;
-  background-color: white;
-  color: red;
-  /*font-family: 'Creepster';*/
-}
 #title {
-  font-family: 'Creepster';
-  display: inline;
-}
-a {
-  color: red;
-}
-h1 {
-  font-size: 60px;
-  margin: 40px 0px 0px 40px;
-}
-/** {margin:0;padding:0;}*/
-ul {
-  padding: 10px;
-}
-li {
-  list-style: none;
-  display: inline;
-  padding: 0px 40px 0px 40px;
-  /*margin: 0px 20px 0px 0px;*/
-  font-size: 30px;
+	font-family: 'Creepster';
+	font-size: 100px;
+	color: red;
 }
 
-/*.flex {
-  display: inline;
-  justify-content: space-between;
-  align-items: baseline;
-}*/
-
+.nav-item {
+	color: ;
+}
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -141,6 +112,3 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 </style>
-</head>
-<body>
-/*>>>>>>> ea46988e4ac663f7eddf179eacfdc793672172a4*/
