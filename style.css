@@ -116,6 +116,18 @@ img {
     }
 }
 
+@media screen and (min-width: 768px) {
+  .carousel-containers {
+    padding: 1.5em 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 930px;
+  }
+}
+
 /* CSS for footer*/
 /*footer {
   background: lightgrey;
