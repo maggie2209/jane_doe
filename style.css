@@ -107,6 +107,9 @@ img {
             font-size: 21px;
             line-height: 1.4;
     }
+    body {
+      bakground: red;
+    }
 }
 
 /* CSS for footer*/
