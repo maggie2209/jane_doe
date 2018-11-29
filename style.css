@@ -326,19 +326,20 @@ img {
 /* CSS for Scrollspy function*/
 #title {
   padding-top: 50px;
+  padding-left: 30px;
 	font-family: 'Creepster';
 	font-size: 50px;
 	color: black;
 }
 
 #cases {
-  height:500px;
+  height: 500px;
   color: black;
   background-color: white;
 }
 
 #podcasts {
-  /*padding-top:50px;*/
+  padding-top: 50px;
   height: auto;
   color: black;
   background-color: white;
@@ -346,7 +347,7 @@ img {
 }
 
 #contact {
-  /*padding-top:50px;*/
+  padding-top: 0px;
   height: auto;
   width: 100%;
   color: black;
