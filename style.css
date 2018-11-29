@@ -356,3 +356,17 @@ img {
 #name-form {
   padding: 0px;
 }
+
+/*for href*/
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
