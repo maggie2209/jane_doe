@@ -352,12 +352,6 @@ img {
   width: 100%;
   color: black;
   background-color: white;
-  display: inline-block;
-  text-align: left;
-}
-
-#center {
-  text-align: center;
 }
 
 #name-form {
